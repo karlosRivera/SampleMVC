@@ -1,0 +1,11 @@
+﻿@model MvcApplication1.Models.Hobbies
+
+    <tr>
+        <td>
+
+            @Html.HiddenFor(x => x.ID)
+            @Html.CheckBoxFor(x => x.IsSelected)
+            @Html.DisplayFor(x => x.Name)
+            @Html.HiddenFor(x => x.Name)
+        </td>
+    </tr>

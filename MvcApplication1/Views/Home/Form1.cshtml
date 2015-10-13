@@ -1,0 +1,27 @@
+﻿@model MvcApplication1.Controllers.Register
+
+@{
+    ViewBag.Title = "Form1";
+}
+
+<h2>Form1</h2>
+@if (ViewBag.Message != "SUCCESS")
+{
+    <form method="post" action="@Url.Action("Form1", "Home")">
+
+        <input type="text" name='@Html.NameFor(x => x.FName)' value="@Model.FName" /><br />
+        <input type="text" name="LName" value="@Model.LName" /><br />
+        <div class="editor-label">
+            <input id="IsApproved" type="checkbox" value="true" name="IsApproved">
+            <input type="hidden" value="false" name="IsApproved">
+            <label for="name">Male</label>
+        </div><br />
+
+        <input type="submit" id="btnSubmit" value="Submit">
+    </form>
+
+}
+else
+{
+<h1>Success...</h1>
+}

@@ -1,0 +1,11 @@
+﻿@model MvcApplication1.Models.Movies
+
+<tr>
+    <td>
+
+        @Html.HiddenFor(x => x.ID)
+        @Html.CheckBoxFor(x => x.IsSelected)
+        @Html.DisplayFor(x => x.Name)
+        @Html.HiddenFor(x => x.Name)
+    </td>
+</tr>
