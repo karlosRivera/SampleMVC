@@ -3,7 +3,7 @@
     ViewBag.Title = "MyCollection";
 }
 <h2>MyCollection</h2>
-@using (Html.BeginForm("MyCollection", "Home", FormMethod.Post, new { CustomerName = "joydev" }))
+@using (Html.BeginForm("MyCollection", "Home", new { CustomerName = "joydev" }, FormMethod.Post))
 {
     <h2>
         Hobbies...
