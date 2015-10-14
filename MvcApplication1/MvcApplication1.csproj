@@ -308,7 +308,7 @@
     <Content Include="Views\Home\Form1.cshtml" />
     <Content Include="Views\Home\MyCollection.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Hobbies.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Movies.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Movies1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

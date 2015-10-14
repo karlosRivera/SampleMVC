@@ -10,7 +10,7 @@ namespace MvcApplication1.Models
     {
         public string CustomerName { get; set; }
 
-        //[UIHint("Movies1")]
+        [UIHint("Movies1")]
         public List<Movies> movies { get; set; }
 
         //[UIHint("Hobbies1")]
